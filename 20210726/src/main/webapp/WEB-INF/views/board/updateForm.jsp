@@ -11,12 +11,14 @@
 		<div>
 			<h1>게시글 상세보기</h1>
 		</div>
+		<!-- <form id="frm" name="frm" action="updateBoard.do" method="post"> form 안에 전부 담도록 할 것 -->
 		<div>
 			<form action="updateBoard.do" id="frm" name="frm">
 				<table border="1">
 					<tr>
 						<th width="100">글번호</th>
 						<td width="70" align="center">${bId }</td>
+						<!--<input type="text" id="" name="" value=${~~}>-->
 						<th width="100">작성자</th>
 						<td width="150" align="center">${bWriter }</td>
 						<th width="100">작성일자</th>

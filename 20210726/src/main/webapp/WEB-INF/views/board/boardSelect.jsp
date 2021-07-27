@@ -48,6 +48,7 @@
 				<input type="hidden" id="bDate" name="bDate" value="${board.bDate }">
 				<input type="hidden" id="bWriter" name="bWriter" value="${board.bWriter }">
 				<input type="hidden" id="bHit" name="bHit" value="${board.bHit }">
+				<!-- form에 id를 담아서 넘기면 나머지를 입력하지 않아도 값이 넘어간다. -->
 				<button type="submit">수정</button>
 			</form>
 			<form id="frm" name="frm" action="deleteContent.do"
